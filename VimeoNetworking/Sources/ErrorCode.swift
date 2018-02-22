@@ -32,7 +32,8 @@ public enum VimeoErrorCode: Int
     // Upload
     case uploadStorageQuotaExceeded = 4101
     case uploadDailyQuotaExceeded = 4102
-    
+    case uploadQuotaSizeExceededCap = 3428
+
     case invalidRequestInput = 2204 // root error code for all invalid parameters errors below
     
     // Password-protected video playback
